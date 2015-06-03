@@ -1,6 +1,6 @@
 I2C Bit banging bus for raspberry pi. 
 
-I made this C++ Class to make any 2 GPIO Pins of the raspberry pi an I2C Bus. It was thought to be used with MPU9250 Breakout boards from Drotec to realize a mocap suit. As the Breakout board only supports 2 sensors on one bus, i wanted to have a solution to get out of the rpi as many I2C busses as possible.
+I made this C++ Class to use any 2 GPIO Pins of the raspberry pi as an I2C Bus. It was thought to be used with MPU9250 Breakout boards from Drotec to realize a mocap suit. As the Breakout board only supports 2 sensors on one bus, i wanted to have a solution to get out of the rpi as many I2C busses as possible.
 
 It is tested and working with the breakout board. The bit banging bus should work with all i2c devices.
 
