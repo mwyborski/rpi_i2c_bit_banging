@@ -18,6 +18,14 @@ to make porting of existing i2c code easier.
 
 Maybe a C interface would have been nicer, but it should be very easy to port it to C. I hope this helps someone!
 
-Compile example with:
+
+
+Compile the example with:
 
 `g++ -std=c++11 -lwiringPi -o i2cBitBangingBus i2cBitBangingBus.cpp`
+
+
+
+The original MPU9150 example with calls to the i2c kernel driver is from:
+
+http://icube-avr.unistra.fr/en/index.php/I2C_communication_between_RPI_and_MPU9150
