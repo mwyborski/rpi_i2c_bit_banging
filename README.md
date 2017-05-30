@@ -7,7 +7,7 @@ I2C bus 1 (gpios 2 and 3 on rpi2 pins 3 and 5) have hard-wired 1k8 pull-ups to 3
 It is tested and working with the MPU9150 breakout board. The bit banging bus should work with all i2c devices.
 
 The low level functions are copied from:
-http://en.wikipedia.org/wiki/I%C2%B2C
+http://en.wikipedia.org/wiki/I%C2%B2C#Example_of_bit-banging_the_I.C2.B2C_master_protocol
 
 On top of that i made linux kernel like smbus functions. For example:
 
