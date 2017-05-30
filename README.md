@@ -9,7 +9,7 @@ It is tested and working with the MPU9150 breakout board. The bit banging bus sh
 The low level functions are copied from:
 http://en.wikipedia.org/wiki/I%C2%B2C
 
-On top of that i made linux kernel like smbus functions. Like
+On top of that i made linux kernel like smbus functions. For example:
 
 `int32_t i2c_smbus_write_byte_data(uint8_t i2c_address, uint8_t command, uint8_t value);`
 
