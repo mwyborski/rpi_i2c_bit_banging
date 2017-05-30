@@ -7,6 +7,12 @@
 
 #include "i2cBitBangingBus.h"
 
+#include <wiringPi.h>
+
+#include <iostream>
+#include <memory>
+#include <stdexcept>
+
 i2cBitBangingBus::i2cBitBangingBus(uint8_t pin_number_sda, uint8_t pin_number_scl, uint32_t sleepTimeNanos_,
         uint32_t delayTicks_) :
         PIN_SDA(pin_number_sda), PIN_SCL(pin_number_scl), sleepTimeNanos(sleepTimeNanos_), nanoSleepTime(), delayTicks(
