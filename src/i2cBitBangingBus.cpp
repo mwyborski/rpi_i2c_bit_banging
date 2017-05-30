@@ -28,8 +28,15 @@ i2cBitBangingBus::i2cBitBangingBus(uint8_t pin_number_sda, uint8_t pin_number_sc
 
 }
 
-// I2C Implementation
-// http://en.wikipedia.org/wiki/I%C2%B2C
+
+
+// I2C implementation is copied and pasted from wikipedia:
+// 
+// https://en.wikipedia.org/wiki/I%C2%B2C#Example_of_bit-banging_the_I.C2.B2C_master_protocol
+//
+//
+
+
 
 bool i2cBitBangingBus::read_SCL() // Set SCL as input and return current level of line, 0 or 1
 {
