@@ -1,4 +1,4 @@
-I2C Bit banging bus for raspberry pi with wiringPi. 
+I2C bit banging SMBus for raspberry pi with wiringPi. 
 
 I made this C++ Class to use any 2 GPIO Pins of the raspberry pi as an I2C Bus. It was thought to be used with MPU9150 breakout boards. As the breakout board only supports 2 sensors on one bus, i wanted to have a solution to get out of the rpi as many I2C busses as possible.
 
