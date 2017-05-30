@@ -8,16 +8,12 @@
 #ifndef I2C_BIT_BANG_H_
 #define I2C_BIT_BANG_H_
 
-#include <wiringPi.h>
-
 #include <stdint.h>
 #include <unistd.h>
 #include <ctime>
 #include <climits>
 
-#include <iostream>
 #include <string>
-#include <memory>
 
 using namespace std;
 
